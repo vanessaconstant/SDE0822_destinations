@@ -1,0 +1,75 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(./fonts/ProductSans-Light.ttf);
+}
+
+body{
+    font-family: ProductSans;
+    
+}
+
+header{
+    text-align: center;
+    padding: 50px 0;
+    border: 8px solid lawngreen;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    flex: 50% 50%;
+}
+
+.main_section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 120px;
+    
+
+}
+
+.destination_form{
+    border: 8px solid red;
+    padding: 5px 120px 120px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    margin: 10px 0 5px;
+}
+
+input, textarea{
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.add_btn{
+    margin-top: 15px;
+
+}
+
+.vacation_wishlist{
+    display: flex;
+    flex-direction: column;
+    border: 8px solid blue;
+    padding: 5px 10px;
+    
+    
+}
+
+.vacation_wishlist h3{
+    font-size: 20px;
+    font-weight: bold;
+    border: 8px solid fuchsia;
+    padding: 5px 200px 10px 30px;
+    
+
+}
+
+.empty_space{
+    border: 8px solid yellow;
+    height: 100%;
+    width: 100%;
+}
