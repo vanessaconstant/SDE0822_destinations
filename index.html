@@ -23,22 +23,29 @@
         </p>
     </header>
     <main class="main_section">
-        <form class="destination_form">
+        <form class="destination_form" id="destination_form">
+
             <label for="destination_name">Destination name</label>
-            <input type="text" name=""placeholder="Enter the name of the destination">
+            <input type="text" name="destination_name"placeholder="Enter the name of the destination" id="destination_name" required>
+
             <label for="location">Location</label>
             <input type="text" name="location" id="location" placeholder="Where is it located?">
+
             <label for="photo_url">Photo</label>
             <input type="text" name="photo_url" id="photo_url" placeholder="Enter an image url of the place">
+
+
             <label for="description">Description</label>
             <textarea name="description" id="description" cols="30" rows="3" placeholder="Where is it located?"></textarea>
-            <button class="btn btn-primary add_btn">Add to list</button>
+            <button class="btn btn-primary add_btn" id="submit-btn" >Add to list</button>
 
         </form>
         <div class="vacation_wishlist">
             <h3>Enter destination details</h3>
            
-                <div class="empty_space"></div>
+                <div class="empty_space" id="wishlist_result">
+
+                </div>
           
             
 
@@ -46,6 +53,7 @@
 
     </main>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
