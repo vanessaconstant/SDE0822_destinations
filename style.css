@@ -59,7 +59,7 @@ input, textarea{
     
 }
 
-.vacation_wishlist h3{
+.wishlist_heading{
     font-size: 20px;
     font-weight: bold;
     border: 8px solid fuchsia;
@@ -75,6 +75,10 @@ input, textarea{
 }
 
 img{
-    width: 150px;
+    width: 100%;
     height: auto;
+}
+
+.destination_card{
+    border: 2px solid black;
 }
